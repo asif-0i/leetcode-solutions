@@ -8,6 +8,3 @@ class Solution:
                 max_global = max_local
 
         return max_global
-
-
-print(Solution().maxSubArray([1, 2, -5, 1, -3, 2]))
