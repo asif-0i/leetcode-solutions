@@ -1,5 +1,6 @@
 class Solution:
     """
+    ## Sub-optimal solution
     def moveZeroes(self, nums: list[int]) -> None:
         nonZeroTimes = 0
 
@@ -12,6 +13,7 @@ class Solution:
             nums[i] = 0
     """
 
+    # optimal solution
     def moveZeroes(self, nums):
         pos = 0
 
