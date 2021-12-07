@@ -20,7 +20,7 @@
     }
 	
 	/* time limit exceeds.
-	public function rotate_old(int[] arr, int k) 
+	public function rotate(int[] arr, int k) 
 	{
 		if (k == 0 || k == arr.length) return;
         int i = arr.length - 1;
